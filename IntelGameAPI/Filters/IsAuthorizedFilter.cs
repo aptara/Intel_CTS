@@ -13,6 +13,7 @@ using System.Net.Http.Headers;
 
 namespace IntelGameAPI.Filters
 {
+
     public class IsAuthorizedFilter : ActionFilterAttribute
     {
         public override void OnActionExecuting(HttpActionContext filterContext)
